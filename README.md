@@ -83,13 +83,13 @@ Welcome to **Carepluse**, a comprehensive patient management system designed to 
 ## Screenshots
 
 ### Patient Dashboard
-![Patient Dashboard](https://github.com/user-attachments/assets/e00a34a3-823d-4cd2-9888-cd88daf086f3)
-![Dashboard](https://github.com/user-attachments/assets/12a947b3-3af6-45be-8f96-288e1ecd8817)
-
+![Patient Dashboard](https://github.com/user-attachments/assets/0708a045-0ef9-407d-bc4c-d5f409eaff9e)
+![Patient Appointment History](https://github.com/user-attachments/assets/e272d894-de43-4d44-97a3-3856c5cc72f6)
 
 
 ### Admin Panel
-![Admin Panel](https://github.com/user-attachments/assets/37b74d2d-07ec-47d5-a10e-846ff7d11502)
+![Admin Panel](https://github.com/user-attachments/assets/08fc8223-3d30-45ad-badb-23fa395edc06)
+
 
 
 ## Contributing
