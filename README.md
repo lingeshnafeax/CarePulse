@@ -1,36 +1,111 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Carepluse - Patient Management System
+
+Welcome to **Carepluse**, a comprehensive patient management system designed to be used by hospitals and patients. Carepluse simplifies the process of managing patient information, scheduling appointments, and communicating effectively.
+
+## Features
+
+### For Patients:
+- **Registration and Login:** Patients can easily register and log in to their accounts.
+- **Dashboard:** Patients have their own dashboard to view and manage their information.
+- **Book Appointments:** Patients can book appointments with doctors.
+- **Appointment History:** Patients can view their past appointments and their statuses.
+- **Appointment Status:** Patients can check the status of their scheduled appointments.
+
+### For Admin:
+- **Admin Panel:** Admins can view all the appointments.
+- **Schedule Appointments:** Admins can schedule and manage patient appointments.
+- **Messaging Service:** Integration with Twilio to send SMS notifications when appointments are scheduled or cancelled.
+
+## Technologies Used
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Appwrite](https://img.shields.io/badge/Appwrite-F02E65?style=for-the-badge&logo=appwrite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=twilio&logoColor=white)
+![Shadcn](https://img.shields.io/badge/Shadcn-000000?style=for-the-badge&logo=shadcn&logoColor=white)
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+- Node.js
+- npm or yarn
+- Appwrite setup
+- Twilio account
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Installation
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/lingeshnafeax/carepluse.git
+    cd carepluse
+    ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. Install dependencies:
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Setup environment variables:
+    Create a `.env` file in the root directory and add your Appwrite and Twilio credentials.
+    ```plaintext
+    NEXT_PUBLIC_APPWRITE_ENDPOINT=<Your Appwrite Endpoint>
+    NEXT_PUBLIC_APPWRITE_PROJECT=<Your Appwrite Project ID>
+    NEXT_PUBLIC_APPWRITE_API_KEY=<Your Appwrite API Key>
+    TWILIO_ACCOUNT_SID=<Your Twilio Account SID>
+    TWILIO_AUTH_TOKEN=<Your Twilio Auth Token>
+    TWILIO_PHONE_NUMBER=<Your Twilio Phone Number>
+    ```
 
-## Learn More
+4. Run the application:
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+5. Open your browser and navigate to `http://localhost:3000`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Patient Dashboard
+- Register or log in to access your dashboard.
+- Book appointments by selecting the available slots.
+- View the history of your appointments and their statuses.
 
-## Deploy on Vercel
+### Admin Panel
+- Log in as an admin to access the admin panel.
+- View all the appointments scheduled.
+- Schedule new appointments or cancel existing ones.
+- Patients will receive SMS notifications when appointments are scheduled or cancelled.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Screenshots
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Patient Dashboard
+![Patient Dashboard](https://github.com/user-attachments/assets/e00a34a3-823d-4cd2-9888-cd88daf086f3)
+![Dashboard](https://github.com/user-attachments/assets/12a947b3-3af6-45be-8f96-288e1ecd8817)
+
+
+
+### Admin Panel
+![Admin Panel](https://github.com/user-attachments/assets/37b74d2d-07ec-47d5-a10e-846ff7d11502)
+
+
+## Contributing
+
+We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any inquiries or support, please contact:
+- Email: [wlingesh260@gmail.com](mailto:wlingesh260@gmail.com)
+- LinkedIn: [Lingesh Patturaj](https://www.linkedin.com/in/lingeshpatturaj)
+
+---
+
+Thank you for using Carepluse! Let's build a healthier future together.
